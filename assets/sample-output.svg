@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+  <rect width="1000" height="600" rx="16" fill="#0b1020"/>
+  <rect width="1000" height="40" rx="16" fill="#1e293b"/>
+  <rect y="24" width="1000" height="16" fill="#1e293b"/>
+  <circle cx="24" cy="20" r="7" fill="#ef4444"/>
+  <circle cx="48" cy="20" r="7" fill="#eab308"/>
+  <circle cx="72" cy="20" r="7" fill="#22c55e"/>
+  <text x="500" y="26" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#94a3b8">pc-health.ps1</text>
+  <g font-family="Consolas, Menlo, monospace" font-size="17" fill="#cbd5e1">
+    <text x="30" y="80" fill="#38bdf8">==== BEFORE ====</text>
+    <text x="30" y="104">Total RAM: 31.7 GB   In use: 18.6 GB (59%)   Free: 13.1 GB</text>
+    <text x="30" y="140" fill="#38bdf8">==== CLEANUP ====</text>
+    <text x="30" y="164">Leftover console windows closed: <tspan fill="#86efac">0</tspan></text>
+    <text x="30" y="188" fill="#64748b">(Active session windows left untouched.)</text>
+    <text x="30" y="224" fill="#38bdf8">==== TOP MEMORY USERS ====</text>
+    <text x="30" y="248">chrome     5.13 GB  (28)</text>
+    <text x="30" y="272">claude     4.92 GB  (21)</text>
+    <text x="30" y="296">svchost    1.87 GB  (103)</text>
+    <text x="30" y="332" fill="#38bdf8">==== COMMIT MEMORY ====</text>
+    <text x="30" y="356">Commit: 27.3 of 47.7 GB (<tspan fill="#86efac">57%</tspan>)</text>
+    <text x="30" y="392" fill="#38bdf8">==== PROCESSOR ====</text>
+    <text x="30" y="416">Logical cores: 12   Samples (%): 48, 32, 35, 23, 25</text>
+    <text x="30" y="440">Average load: <tspan fill="#86efac">33%</tspan></text>
+    <text x="30" y="476" fill="#38bdf8">==== LONG-RUNNING LEFTOVERS (look, do not kill) ====</text>
+    <text x="30" y="500">None.</text>
+  </g>
+  <rect x="30" y="525" width="940" height="52" rx="10" fill="#14532d"/>
+  <text x="50" y="557" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#dcfce7">Claude: Nothing is the limit right now. RAM 59%, page file 57%, processor 33%. Nothing to do, the PC is fine.</text>
+</svg>

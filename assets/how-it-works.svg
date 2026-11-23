@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="420" rx="24" fill="#f8fafc"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <!-- trigger -->
+    <rect x="40" y="170" width="200" height="80" rx="16" fill="#e2e8f0"/>
+    <text x="140" y="205" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">You say</text>
+    <text x="140" y="232" text-anchor="middle" font-size="17" fill="#334155">"my PC is slow"</text>
+
+    <!-- cleanup -->
+    <rect x="300" y="170" width="220" height="80" rx="16" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+    <text x="410" y="205" text-anchor="middle" font-size="20" font-weight="700" fill="#14532d">Safe cleanup</text>
+    <text x="410" y="232" text-anchor="middle" font-size="16" fill="#166534">orphaned consoles only</text>
+
+    <!-- three checks -->
+    <rect x="590" y="40" width="250" height="90" rx="16" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+    <text x="715" y="78" text-anchor="middle" font-size="20" font-weight="700" fill="#1e3a8a">RAM</text>
+    <text x="715" y="105" text-anchor="middle" font-size="16" fill="#1e40af">top 10 memory users</text>
+
+    <rect x="590" y="165" width="250" height="90" rx="16" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+    <text x="715" y="203" text-anchor="middle" font-size="20" font-weight="700" fill="#4c1d95">Commit memory</text>
+    <text x="715" y="230" text-anchor="middle" font-size="16" fill="#5b21b6">page file near its limit?</text>
+
+    <rect x="590" y="290" width="250" height="90" rx="16" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+    <text x="715" y="328" text-anchor="middle" font-size="20" font-weight="700" fill="#7c2d12">Processor</text>
+    <text x="715" y="355" text-anchor="middle" font-size="16" fill="#9a3412">load + top 10 + leftovers</text>
+
+    <!-- answer -->
+    <rect x="910" y="150" width="250" height="120" rx="16" fill="#0f172a"/>
+    <text x="1035" y="190" text-anchor="middle" font-size="20" font-weight="700" fill="#f8fafc">Claude answers</text>
+    <text x="1035" y="218" text-anchor="middle" font-size="16" fill="#cbd5e1">which one is the limit</text>
+    <text x="1035" y="244" text-anchor="middle" font-size="16" fill="#86efac">+ one next step</text>
+  </g>
+  <g stroke="#64748b" stroke-width="2.5" fill="none" marker-end="url(#arrow)">
+    <path d="M240 210 H292"/>
+    <path d="M520 210 C555 210 555 85 582 85"/>
+    <path d="M520 210 H582"/>
+    <path d="M520 210 C555 210 555 335 582 335"/>
+    <path d="M840 85 C880 85 875 200 902 200"/>
+    <path d="M840 210 H902"/>
+    <path d="M840 335 C880 335 875 225 902 225"/>
+  </g>
+</svg>
