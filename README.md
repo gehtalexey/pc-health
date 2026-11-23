@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="pc-health: a Claude Code skill that tells you why your Windows PC is choking" width="100%">
+  <img src="assets/banner.svg" alt="pc-health: a Claude Code skill that finds what is choking your PC, and fixes it" width="100%">
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@ There are three different answers, and each one has a different fix:
 | **Commit memory** (page file) | The PC freezes even with RAM free | A bigger, fixed page file, not closing apps |
 | **Processor** | Fans spin, typing lags | Find the busy process: a session, a hook, Defender, a stray command |
 
-`pc-health` checks all three at once, closes the one kind of junk that is safe to close, and Claude tells you in plain words which one is the limit and what to do next.
+`pc-health` finds which one is full and fixes it. It cleans up the safe leftovers by itself, and for everything else Claude gives you the exact fix in plain words.
 
 ## How it works
 

@@ -13,7 +13,7 @@
   <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
   <path d="M60 250 H330 L360 200 L395 300 L430 150 L465 270 L490 250 H1140" fill="none" stroke="url(#pulse)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   <text x="60" y="120" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="#f8fafc">pc-health</text>
-  <text x="62" y="170" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" fill="#94a3b8">A Claude Code skill that tells you why your Windows PC is choking</text>
+  <text x="62" y="170" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" fill="#94a3b8">A Claude Code skill that finds what is choking your PC, and fixes it</text>
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="600">
     <rect x="640" y="210" width="140" height="44" rx="22" fill="#1d4ed8"/>
     <text x="710" y="239" text-anchor="middle" fill="#fff">RAM</text>
@@ -22,5 +22,5 @@
     <rect x="990" y="210" width="150" height="44" rx="22" fill="#ea580c"/>
     <text x="1065" y="239" text-anchor="middle" fill="#fff">CPU</text>
   </g>
-  <text x="60" y="320" font-family="Consolas, Menlo, monospace" font-size="20" fill="#64748b">"my PC is slow" → one check → one answer → one next step</text>
+  <text x="60" y="320" font-family="Consolas, Menlo, monospace" font-size="20" fill="#64748b">"my PC is slow" → one check → the fix</text>
 </svg>
